@@ -1,2 +1,24 @@
-# damda-releases
-DAMDA[담다] — Daily Assistant for Messaging &amp; Data Archive. Windows releases and update metadata.
+# DAMDA[담다]
+
+**Daily Assistant for Messaging & Data Archive**
+
+선생님의 하루를 담다.
+
+쿨메신저 메시지 속 제출·회신·일정 등을 업무 카드로 정리하고, 원문과 함께 확인하는 Windows 앱입니다.
+
+## 설치와 업데이트
+
+[Releases](https://github.com/pandabin3-code/damda-releases/releases)에서 최신 버전의 `Damda-Setup-…-x64.exe`를 다운로드하세요. Windows 64비트용이며 Python을 별도로 설치할 필요가 없습니다.
+
+기존 버전을 사용 중이면 편집 내용을 저장한 뒤 담다 왼쪽 아래 **앱 종료**를 누르고 설치하세요. 브라우저 탭만 닫으면 앱이 계속 실행될 수 있습니다. 저장된 업무와 설정은 업데이트 후에도 유지됩니다.
+
+beta.4부터 이 저장소의 버전 안내 주소를 포함합니다. 저장소와 업데이트 채널을 공개한 뒤 앱 실행 시와 사용 중 6시간마다 새 버전을 확인하며, 새 버전이 있으면 앱 화면에서 알려드립니다. 다운로드와 설치는 사용자가 시작합니다.
+
+## 현재 범위
+
+- PC 내 메시지 판독과 로컬 업무 관리
+- 쿨메신저 연결은 선택 사항이며, 백업 시 별도의 관리자 승인이 필요할 수 있음
+- 코드 서명 없는 베타 설치본
+- 모바일·Google Drive 동기화는 후속 개발 항목
+
+이 저장소는 설치 파일과 공개 배포 안내를 보관하는 용도입니다. 사용자 메시지, 업무 저장소, 개인 설정은 포함하지 않습니다.
