@@ -1,6 +1,6 @@
 # 담다 screenshots
 
-Current app: 0.5.0-beta.6. All content is fictional.
+Introduction/history captures: 0.5.0-beta.6. Support guide captures: 0.5.0-beta.9 (images/help-manifest.json). All content is fictional.
 
 - images/01-dashboard.png
 - images/02-detail.png

@@ -1,0 +1,42 @@
+{
+  "version": "0.5.0-beta.9",
+  "syntheticOnly": true,
+  "diagnosisScenarios": "Simulated states rendered by the actual app UI; no real backup or permission requests.",
+  "images": [
+    {
+      "file": "help-01-start.png",
+      "sha256": "0ff13a618fb16474353721768a3d8b59e3b8a337173d0d40be5c20e5172e91c9",
+      "synthetic": true
+    },
+    {
+      "file": "help-02-missing.png",
+      "sha256": "655838c81edad208a1d65d84fcfc2286f692b032dae8db8483fc8eeabe1fa6d9",
+      "synthetic": true
+    },
+    {
+      "file": "help-03-connect.png",
+      "sha256": "4f6cfdc1c047f30a9e51260e93bc4c9461b31bf01eb2b51cc65144417abc0c09",
+      "synthetic": true
+    },
+    {
+      "file": "help-04-multiple.png",
+      "sha256": "d467d2ab0d16aad8fa90ad6ffc93920c6ba42079cec9c059933b75d67fee8e2c",
+      "synthetic": true
+    },
+    {
+      "file": "help-05-folder.png",
+      "sha256": "b77c5e90a063ec8dbe73021809fbac4ca3b65253cbac1b5d17877fa2496eeb6e",
+      "synthetic": true
+    },
+    {
+      "file": "help-06-detail.png",
+      "sha256": "0f29fe4234810cd3d27ed2c465284847eaaa84d904cac3edda073d89ca2d4488",
+      "synthetic": true
+    },
+    {
+      "file": "help-07-update.png",
+      "sha256": "fdc2d6bcf49ac070d0b7b64fea6ef284fbd80376a5f9b5d6768ba34d35da860a",
+      "synthetic": true
+    }
+  ]
+}
