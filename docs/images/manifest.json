@@ -1,0 +1,78 @@
+{
+  "syntheticOnly": true,
+  "actualBackupExecuted": false,
+  "generatedAt": "2026-09-17T01:35:25.937Z",
+  "description": "Current app UI with entirely fictional seeded examples; not analysis accuracy evidence.",
+  "images": [
+    {
+      "file": "01-dashboard.png",
+      "description": "진행 상태와 마감일을 한눈에 보는 합성 업무 카드 예시",
+      "width": 1440,
+      "height": 1120,
+      "sha256": "179c843be76b257cb4fdbfca01a4421954f47c4ba9ed78b156e2053f0739a566"
+    },
+    {
+      "file": "02-detail.png",
+      "description": "가상 원문과 수정 가능한 업무 정보를 함께 보는 실제 상세창",
+      "width": 1440,
+      "height": 1120,
+      "sha256": "cb022580735f1ba7e743cf294c100c07046dec9a1f754c84fab5a1bf337a5e0b"
+    },
+    {
+      "file": "03-completed.png",
+      "description": "가상 완료 시각을 최근순·월별로 정리한 실제 완료 화면",
+      "width": 1440,
+      "height": 1464,
+      "sha256": "9444358e907ac0bb07d6f8c3528d9307c49f8a088dd77d46d753899543343315"
+    },
+    {
+      "file": "04-settings.png",
+      "description": "연결·기간·권한 안내를 단계별로 보여주는 실제 설정창",
+      "width": 1440,
+      "height": 1320,
+      "sha256": "1276ee59ea276ebe19297423569a8101eb46d85a60e7c05c743bc91eed280713"
+    },
+    {
+      "file": "05-review.png",
+      "description": "담당과 제안 날짜를 확인할 가상 업무 예시",
+      "width": 1440,
+      "height": 1120,
+      "sha256": "ea4b7cbee68e770d69b2646e47f84653ac97e24407847808294fce0557b3901c"
+    },
+    {
+      "file": "06-intake.png",
+      "description": "주입된 합성 수집기로 표시한 진행률 예시; 실제 PowerShell·백업 작업 없음",
+      "width": 1440,
+      "height": 1120,
+      "sha256": "92278ca4af3dd525cd0a7966e522f3a313ddbde163f3849419442fff67f419b8"
+    },
+    {
+      "file": "07-analysis.png",
+      "description": "현재 domain.classify가 합성 메시지를 판독한 실제 근거; 이모지 뒤 Python 코드포인트 범위를 검증",
+      "width": 1440,
+      "height": 1320,
+      "sha256": "1dfd4db3b7278c40cc122fa751500f2640101135faa073abcd911ad62e02754a"
+    },
+    {
+      "file": "story-01-legacy-inbox.png",
+      "description": "Retained-source UI rerun with synthetic data; see STORY_SOURCES.md",
+      "width": 1260,
+      "height": 820,
+      "sha256": "d45b01defe0b9961cb8e88a333f5a9b9662eca1b4ae11ad2d17220989765a813"
+    },
+    {
+      "file": "story-02-personal-workspace.png",
+      "description": "Retained-source UI rerun with synthetic data; see STORY_SOURCES.md",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "d9ad878d1d0b5f6042129ba13433496ed61f84ce99fefea0b0028edd6f5e6c65"
+    },
+    {
+      "file": "story-03-taskcards-archive.png",
+      "description": "Retained-source UI rerun with synthetic data; see STORY_SOURCES.md",
+      "width": 1440,
+      "height": 1120,
+      "sha256": "2f22d73c2d4a1615114cddba7de21544e910dad194918eba128b93671907accf"
+    }
+  ]
+}

@@ -3,7 +3,7 @@
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="담다 DAMDA는 선생님의 메시지를 업무 카드로 모아 정리하는 Windows 앱입니다."><title>담다 DAMDA · 선생님의 하루를 담다</title><link rel="stylesheet" href="styles.css"></head>
 <body>
 <a class="skip" href="#main">본문으로 이동</a>
-<header class="site-header"><a class="brand" href="#"><span class="brand-icon" aria-hidden="true">✓</span>담다 DAMDA</a><nav aria-label="소개 페이지"><a href="#features">주요 기능</a><a href="#start">시작하기</a><a href="#scope">개발 현황</a></nav></header>
+<header class="site-header"><a class="brand" href="#"><span class="brand-icon" aria-hidden="true">✓</span>담다 DAMDA</a><nav aria-label="소개 페이지"><a href="#features">주요 기능</a><a href="#start">시작하기</a><a href="#scope">개발 현황</a><a href="#behind-damda">담다 이야기</a></nav></header>
 <main id="main">
 <section class="hero wrap"><p class="eyebrow">Daily Assistant for Messaging &amp; Data Archive</p><h1>메시지에서 찾던 할 일,<br>이제 카드에서 챙겨요.</h1><p class="lead">요청과 회의를 업무 카드로 모아 보세요.<br>원문을 확인하고, 마감을 수정하고, 끝낸 일까지 한곳에서 관리해요.</p><div class="actions"><a class="button" href="#preview">화면 미리 보기 <span aria-hidden="true">↓</span></a><a class="button secondary" href="https://github.com/pandabin3-code/damda-releases/releases">설치 파일 받기</a></div><p class="fine">Windows 64비트 설치형 베타 · 쿨메신저 연결은 선택 사항이에요.</p>
 <figure id="preview" class="hero-preview"><img src="images/01-dashboard.png" alt="가상 업무 카드들이 보낸 사람, 마감과 진행 상태를 보여주는 전체 업무 화면"><figcaption>화면에 등장하는 이름과 메시지는 모두 예시 데이터예요.</figcaption></figure></section>
@@ -15,8 +15,40 @@
 <section class="wrap trust"><div><p class="eyebrow">내 PC 안에 저장</p><h2>원문을 보관하고,<br>내가 수정한 업무를 지켜요.</h2><p>검증한 백업 복사본에서 메시지를 가져와요. 원문과 업무는 현재 Windows 사용자 계정에 연결된 방식으로 암호화해 저장해요.</p><p>현재 판독은 로컬 규칙 기반이며 외부 AI로 메시지를 보내지 않아요. 저장 파일 복사만으로 다른 기기에 이관할 수 있는 구조는 아니에요.</p></div><aside><h3>문제가 생겼나요?</h3><p>‘오류 보내기’에서 상황을 적으면 진단 정보를 담은 GitHub 오류 작성 화면으로 연결돼요. 메시지 원문과 보낸 사람 정보는 자동으로 포함하지 않아요.</p><p class="fine">GitHub에서 내용을 확인하고 제출해 주세요. 직접 적은 설명에도 개인정보가 없는지 확인해 주세요.</p></aside></section>
 <section class="wrap scope" id="scope"><div class="section-heading"><p class="eyebrow">개발 현황</p><h2>지금 가능한 것과<br>앞으로 준비할 것.</h2><p>설치 파일로 시작하고, 새 버전 알림으로 개선 사항을 받아보세요. 자동 판독은 원문과 함께 확인해 주세요.</p></div><div class="scope-grid"><article><span class="pill">현재 설치형 베타</span><h3>Windows PC에서 사용할 수 있어요</h3><ul><li>업무 카드 생성·편집·검색·상태 관리</li><li>선택형 쿨메신저 가져오기와 원문 확인</li><li>로컬 규칙 기반 요약·종류 분류</li><li>날짜 제안·확인 필요 표시와 완료 시각 기록</li><li>링크·첨부파일 바로 열기, 분류 빠른 변경</li><li>새 버전 알림과 설치 파일 업데이트</li><li>현재 계정에 연결된 암호화 저장</li></ul><p class="fine">Python을 따로 설치하지 않아도 돼요. WebView2가 필요하며, 설치 마법사에서 런타임 설치를 도와줘요.</p></article><article><span class="pill muted">후속 계획</span><h3>기기와 사용 환경을 넓혀갈 예정이에요</h3><ul><li>모바일 이용 경험 개선</li><li>다른 기기와의 안전한 자료 연동</li><li>검증 자료에 기반한 소형 모델 검토</li><li>모바일 이용과 Google Drive 동기화</li></ul><p class="fine">모바일 앱·동기화·학습된 소형 AI는 현재 제공 기능이 아니에요. PC·모바일 읽음 상태 보존을 보장하는 버전도 아니에요.</p></article></div></section>
 <section class="feature wrap"><div class="feature-copy"><p class="eyebrow">확인할 수 있는 자동 정리</p><h2>왜 이렇게 정리됐는지,<br>근거를 함께 확인해요.</h2><p>최초 판독에 사용한 원문 구간과 확인이 필요한 이유를 펼쳐 볼 수 있어요. 대상과 날짜가 맞는지 확인하고 내 업무에 맞게 다듬어 보세요.</p><p class="fine">이 설명은 처음 가져왔을 때의 분석이에요. 직접 수정한 내용의 정확성을 보증하지 않아요.</p></div><figure><img src="images/07-analysis.png" loading="lazy" alt="가상 메시지에서 추출한 원문 근거와 검토 이유를 펼친 업무 상세 화면"><figcaption>예시 데이터 · 원문 근거와 확인할 내용을 함께 보여줘요.</figcaption></figure></section>
-<section id="connected-tools" class="feature wrap"><div class="feature-copy"><p class="eyebrow">베타 0.5 · 선택해서 연결</p><h2>필요한 업무를<br>Google 캘린더에도.</h2><p>업무의 제목과 날짜·시간을 확인하고 선택한 캘린더에 등록하거나 갱신해요. 같은 업무의 중복 등록을 방지하고, Google에서 바뀐 일정은 덮어쓰기 전에 멈춰요.</p><p class="fine">담다 → Google 단방향 수동 동기화입니다. 데스크톱 OAuth 설정과 Google 로그인이 필요해요. 실제 계정 연결 검증은 별도이며 학교 계정 정책에 따라 제한될 수 있어요.</p></div><figure><img src="images/08-calendar.png" loading="lazy" alt="합성 Google 연결 상태와 가상 업무를 선택하는 캘린더 화면"><figcaption>합성 예시 · 실제 계정이나 일정이 아닙니다.</figcaption></figure></section>
-<section class="tint"><div class="feature wrap reverse"><div class="feature-copy"><p class="eyebrow">베타 0.5 후속 기능</p><h2>이번 주 급식도<br>같은 공간에서.</h2><p>학교를 선택하고 주간 식단과 영양 정보를 살펴봐요. 한 번 조회한 결과는 잠시 보관해 반복 조회를 줄여요.</p><p class="fine">나이스 정식 인증키가 필요해요. 학교가 식단을 등록하지 않은 날과 통신 오류를 구분해서 알려드려요. 실제 학교 조회는 인증키 설정 후 확인할 수 있어요.</p></div><figure><img src="images/09-meals.png" loading="lazy" alt="가상의 학교와 식단으로 구성한 급식 조회 화면"><figcaption>합성 식단 예시 · 실제 학교 식단이 아닙니다.</figcaption></figure></div></section>
+<section id="behind-damda" class="behind tint" aria-labelledby="behind-title">
+  <div class="wrap">
+    <div class="section-heading">
+      <p class="eyebrow">담다를 만들며</p>
+      <h2 id="behind-title">처음부터<br>지금의 담다는 아니었어요.</h2>
+      <p>분명 읽었는데, 다시 찾게 되는 제출 기한.<br>메시지를 읽는 일과 해야 할 일을 챙기는 일 사이에서 시작했습니다.</p>
+      <p class="fine">프로젝트에 남아 있는 프로그램과 개발 기록으로 돌아본 이야기예요.<br>화면의 내용은 모두 가상 예시이며, 재촬영한 화면은 따로 표시했어요.</p>
+    </div>
+    <article class="story-scene story-first">
+      <div class="story-copy"><span class="pill">처음의 업무함</span><h3>메시지를 옮겨,<br>할 일의 초안을 만들었어요.</h3><p>초기 TeacherInbox는 표로 된 업무함이었어요. 메시지를 직접 넣고 제목과 날짜를 살펴보며 업무로 정리했죠. 이후에는 검증된 백업에서 가져오는 기능도 붙었습니다.</p><p>그런데 정보를 가져오는 것만으로는 충분하지 않았어요. 결국 선생님이 해야 할 일이 잘 보여야 했습니다.</p></div>
+      <figure><div class="story-frame">보존된 초기 프로그램 · 재실행</div><img src="images/story-01-legacy-inbox.png" loading="lazy" alt="초기 TeacherInbox의 표 형태 업무 목록과 오른쪽 검토 입력란"><figcaption>초기 계열의 보존 소스로 재촬영 · 합성 예시 · 당시 최초 빌드와는 다를 수 있어요.</figcaption></figure>
+    </article>
+    <article class="story-scene">
+      <div class="story-copy"><span class="pill">다른 화면도 시도했어요</span><h3>오늘 할 일을<br>앞에 두고 싶었어요.</h3><p>할 일과 일정을 함께 보여주는 COOL 업무비서를 거쳐, 더 단순한 개인 작업 공간도 만들어 보았습니다. 목록 옆에서 실행 방법과 근거를 확인하고 고치는 실험이었어요.</p><p>여러 화면을 만들며 남은 질문은 하나였어요. “다시 읽고 찾는 수고를 얼마나 줄일 수 있을까?”</p></div>
+      <figure><div class="story-frame">개인 작업 공간 · 별도로 시도한 화면</div><img src="images/story-02-personal-workspace.png" loading="lazy" alt="NewWorkspace에서 오늘의 업무 목록과 실행 정보 및 근거를 함께 보여주는 화면"><figcaption>보존된 사용 흐름 실험을 재실행 · 자체 합성 예시 · 실제 메시지 연결 화면이 아니에요.</figcaption></figure>
+    </article>
+    <article class="story-scene">
+      <div class="story-copy"><span class="pill">업무 카드의 시작</span><h3>이제 메시지를<br>카드에 담아 보았습니다.</h3><p>TaskCards에서는 메시지 속 요청을 큰 카드로 모으고, 상태를 바꾸며 처리할 수 있게 했어요. 지금 담다 카드 화면의 초기 모습입니다.</p><p>처음에는 내용을 많이 보여주려 했어요. 글자 잘림을 고치자 카드가 길어졌고, 이후에는 짧게 훑어본 뒤 원문을 펼치는 방향으로 다듬었습니다.</p></div>
+      <figure><div class="story-frame">보존된 TaskCards 소스 · 재실행</div><img src="images/story-03-taskcards-archive.png" loading="lazy" alt="초기 업무 카드 화면의 큰 카드와 상태 선택 버튼"><figcaption>보존된 v0.1.0 카드 UI로 재촬영 · 합성 예시 · 실행에 필요한 저장 기반은 현재 모듈을 사용했어요.</figcaption></figure>
+    </article>
+    <div class="story-lessons">
+      <article><h3>나눌수록 편한 건 아니었어요.</h3><p>한 메시지에서 요청을 나눠 여러 카드를 만들기도 했어요. 하지만 비슷한 카드가 반복되어 보였습니다. 그래서 지금은 메시지 하나를 카드 하나에 담고, 이전 수정 기록도 남겨요.</p></article>
+      <article><h3>짧다고 늘 좋은 요약은 아니었어요.</h3><p>기한만큼 대상과 조건도 중요했어요. 지금도 자동 정리가 틀릴 수 있어요. 원문과 판단 근거를 함께 확인하고, 분류와 내용을 직접 고칠 수 있게 했습니다.</p></article>
+    </div>
+    <article class="story-current">
+      <div class="section-heading"><p class="eyebrow">그리고 지금의 담다</p><h3>메시지는 담아 두고,<br>할 일은 한눈에.</h3><p>짧은 카드에서 업무를 찾고, 필요할 때 원문을 펼쳐요.<br>끝낸 일은 기록하고, 다음 개선은 업데이트로 전합니다.</p></div>
+      <figure><div class="story-frame">현재 담다 · 공개판</div><img src="images/01-dashboard.png" loading="lazy" alt="현재 담다의 업무 카드, 검색 및 마감 달력"><figcaption>현재 앱을 합성 메시지로 촬영 · 개인 메시지와 계정 정보는 포함하지 않았어요.</figcaption></figure>
+      <p class="story-ending">담다는 아직 다듬는 중입니다.<br>선생님의 하루에서 다시 찾는 수고가 조금씩 줄어들기를 바랍니다.</p>
+      <p class="story-name">담다 <span>Daily Assistant for Messaging &amp; Data Archive</span></p>
+      <p class="fine"><a href="STORY_SOURCES.md">이 이야기에 사용한 기록과 화면 출처 보기</a></p>
+    </article>
+  </div>
+</section>
+
 <section class="wrap closing"><h2>요청은 모아 보고,<br>끝낸 일은 기록해요.</h2><a class="button" href="#preview">담다 화면 보기 <span aria-hidden="true">↑</span></a><p class="fine">설치 파일은 GitHub Releases에서 받을 수 있어요. 이 소개 자료에는 개인 메시지가 포함되지 않아요.</p></section>
 </main><footer class="wrap footer"><span class="brand">담다 DAMDA</span><p>자체 제작한 소개 화면 · 합성 예시 데이터 사용<br>외부 이미지·글꼴·분석 서비스 요청 없이 열 수 있어요.</p></footer>
 </body></html>
