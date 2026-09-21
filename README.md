@@ -1,4 +1,10 @@
-# 담다 Beta 0.5.0-beta.17
+# 담다 Beta 0.5.0-beta.22
+
+DAMDA는 Windows 64비트 native WebView 설치형 단일 제품입니다. 검증된 beta.22 후보의 기존 설치 파일을 재빌드 없이 게시합니다.
+
+**실제 메신저 백업 실행과 모바일 읽음 상태는 이번 검증 범위에 포함되지 않았습니다.** 등록된 백업 작업을 실행하지 않았으며 실제 VSS 백업·복원도 검증하지 않았습니다. 모바일 읽음 상태는 미검증·유예입니다. 다른 Windows 기기 및 교차 관리자 계정 검증도 포함하지 않습니다. 설치 시험은 운영 바로가기·제거 등록을 변경하지 않는 격리 모드로 수행했습니다.
+
+[0.5.0-beta.22 release notes](https://github.com/pandabin3-code/damda-releases/releases/tag/v0.5.0-beta.22)
 
 Daily Assistant for Messaging & Data Archive
 
@@ -23,11 +29,8 @@ Daily Assistant for Messaging & Data Archive
 
 자동 업데이트를 지원하지 않는 오래된 버전이나 회사·학교 네트워크에서 다운로드가 막힌 경우, 아래 설치 파일을 받아 한 번 설치해 주세요.
 
-- **일반 프로그램형 권장:** `Damda-Beta-Setup-0.5.0-beta.17-x64.exe`
-- **기존 브라우저형 사용자:** `Damda-Setup-0.5.0-beta.17-x64.exe`
-- `Damda-WebView-Preview-Setup-0.5.0-beta.17-x64.exe`는 기존 자동 업데이트 주소와의 호환을 위한 파일명이며 권장 설치본과 내용이 같습니다. 화면 이름은 담다 Beta입니다.
 
 Windows 64비트용입니다. [설치 및 문제 해결 가이드](https://pandabin3-code.github.io/damda-releases/help.html) · [담다 소개](https://pandabin3-code.github.io/damda-releases/)
 
 
-[담다 Beta 설치 파일 받기](https://github.com/pandabin3-code/damda-releases/releases/download/v0.5.0-beta.17/Damda-Beta-Setup-0.5.0-beta.17-x64.exe)
+[담다 Beta 설치 파일 받기](https://github.com/pandabin3-code/damda-releases/releases/download/v0.5.0-beta.22/Damda-WebView-Preview-Setup-0.5.0-beta.22-x64.exe)
