@@ -13,4 +13,6 @@ Introduction/history captures: 0.5.0-beta.6. Support guide captures: 0.5.0-beta.
 - images/story-02-personal-workspace.png
 - images/story-03-taskcards-archive.png
 
-The first seven images are current synthetic captures. The three story images are retained-source reruns; see STORY_SOURCES.md. No actual backup or external account request was performed. The page uses ten image elements.
+The first seven images are retained beta.6 synthetic captures, not current beta.44 screenshots. The three story images are retained-source reruns; see STORY_SOURCES.md. No actual backup or external account request was performed. The page uses ten image elements.
+
+Website copy was updated for beta.44 on 2026-10-01. No images were recaptured or replaced. New school-search and meal features are described from the published release notes; they are not depicted in the retained screenshots.
