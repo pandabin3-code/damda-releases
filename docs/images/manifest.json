@@ -2,7 +2,7 @@
   "syntheticOnly": true,
   "actualBackupExecuted": false,
   "generatedAt": "2026-09-17T01:35:25.937Z",
-  "description": "Current app UI with entirely fictional seeded examples; not analysis accuracy evidence.",
+  "description": "Retained beta.6 app UI with entirely fictional seeded examples; not current beta.44 screenshots or analysis accuracy evidence.",
   "images": [
     {
       "file": "01-dashboard.png",
@@ -48,7 +48,7 @@
     },
     {
       "file": "07-analysis.png",
-      "description": "현재 domain.classify가 합성 메시지를 판독한 실제 근거; 이모지 뒤 Python 코드포인트 범위를 검증",
+      "description": "beta.6 당시 domain.classify가 합성 메시지를 판독한 실제 근거; 이모지 뒤 Python 코드포인트 범위를 검증",
       "width": 1440,
       "height": 1320,
       "sha256": "1dfd4db3b7278c40cc122fa751500f2640101135faa073abcd911ad62e02754a"
@@ -74,5 +74,6 @@
       "height": 1120,
       "sha256": "2f22d73c2d4a1615114cddba7de21544e910dad194918eba128b93671907accf"
     }
-  ]
+  ],
+  "version": "0.5.0-beta.6"
 }
