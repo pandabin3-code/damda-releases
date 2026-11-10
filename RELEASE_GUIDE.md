@@ -1,10 +1,10 @@
-> **최신 공개 버전: beta.66 (2026-11-10).** 설치형 업데이트 채널에 반영됐습니다.
+> **최신 공개 버전: beta.69 (2026-11-10).** 설치형 업데이트 채널에 반영됐습니다.
 >
-> [beta.66 설치 파일](https://github.com/pandabin3-code/damda-releases/releases/download/v0.5.0-beta.66/Damda-WebView-Preview-Setup-0.5.0-beta.66-x64.exe) · [변경 사항·검증 범위](https://github.com/pandabin3-code/damda-releases/releases/tag/v0.5.0-beta.66) · [SHA-256](https://github.com/pandabin3-code/damda-releases/releases/download/v0.5.0-beta.66/Damda-WebView-Preview-Setup-0.5.0-beta.66-x64.exe.sha256)
+> [beta.69 설치 파일](https://github.com/pandabin3-code/damda-releases/releases/download/v0.5.0-beta.69/Damda-WebView-Preview-Setup-0.5.0-beta.69-x64.exe) · [변경 사항](https://github.com/pandabin3-code/damda-releases/releases/tag/v0.5.0-beta.69) · [SHA-256](https://github.com/pandabin3-code/damda-releases/releases/download/v0.5.0-beta.69/Damda-WebView-Preview-Setup-0.5.0-beta.69-x64.exe.sha256)
 >
-> 기존 앱에서 업데이트하거나 같은 설치 위치에 설치하세요. 기존 업무·설정을 유지하며 앱 제거나 저장소 삭제는 필요하지 않습니다. 미저장 편집을 저장한 뒤 업데이트하세요. 이미지·첨부 분류와 인용 제외를 개선했으며 전체 Python 698개와 합성 UI 9개 검사를 통과했습니다. 자세한 지원 범위와 제한은 위 릴리스 설명을 참고하세요.
+> 기존 앱의 업데이트 기능 또는 같은 설치 위치에 설치해 주세요. 업무·설정·수동 수정 제목을 유지하며 앱 삭제나 데이터 초기화는 필요하지 않습니다. 창 크기별 수집 시간·배치와 제목 추출을 개선했습니다. 개인별 검토 데이터는 배포 파일에 포함하지 않습니다.
 >
-> 아래 내용은 beta.44 당시의 기능·검증 기록입니다. 최신 다운로드와 검증 결과는 위 beta.66 링크를 기준으로 확인하세요.
+> 아래 내용은 이전 버전의 역사적 기록입니다. 최신 설치와 검증 범위는 위 beta.69 릴리즈를 기준으로 확인해 주세요.
 
 ---
 
