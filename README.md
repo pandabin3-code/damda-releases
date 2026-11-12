@@ -1,10 +1,10 @@
-> **최신 공개 버전: beta.71 (2026-11-11).** 설치형 업데이트 채널에 반영됐습니다.
+> **최신 공개 버전: beta.72 (2026-11-12).** 설치형 업데이트 채널에 반영됐습니다.
 >
-> [beta.71 설치 파일](https://github.com/pandabin3-code/damda-releases/releases/download/v0.5.0-beta.71/Damda-WebView-Preview-Setup-0.5.0-beta.71-x64.exe) · [변경 사항](https://github.com/pandabin3-code/damda-releases/releases/tag/v0.5.0-beta.71) · [SHA-256](https://github.com/pandabin3-code/damda-releases/releases/download/v0.5.0-beta.71/Damda-WebView-Preview-Setup-0.5.0-beta.71-x64.exe.sha256)
+> [beta.72 설치 파일](https://github.com/pandabin3-code/damda-releases/releases/download/v0.5.0-beta.72/Damda-WebView-Preview-Setup-0.5.0-beta.72-x64.exe) · [변경 사항](https://github.com/pandabin3-code/damda-releases/releases/tag/v0.5.0-beta.72) · [SHA-256](https://github.com/pandabin3-code/damda-releases/releases/download/v0.5.0-beta.72/Damda-WebView-Preview-Setup-0.5.0-beta.72-x64.exe.sha256)
 >
-> 기존 앱의 업데이트 기능 또는 같은 설치 위치에 설치해 주세요. 업무·설정·수동 수정 제목을 유지하며 앱 삭제나 데이터 초기화는 필요하지 않습니다. 요약의 대상·조건·기한 보존과 제목·요약 중복 처리를 개선했습니다. 개인별 검토 데이터는 배포 파일에 포함하지 않습니다.
+> 기존 앱의 업데이트 기능 또는 같은 설치 위치에 설치해 주세요. 업무·설정·수동 수정 제목을 유지하며 앱 삭제나 데이터 초기화는 필요하지 않습니다. 제목·요약 중복과 교시 기한 표시를 개선하고, 안내·일정·제출·회신을 원문 문맥에 맞게 분류합니다. 개인별 검토 데이터는 배포 파일에 포함하지 않습니다.
 >
-> 아래 내용은 이전 버전의 역사적 기록입니다. 최신 설치와 검증 범위는 위 beta.71 릴리즈를 기준으로 확인해 주세요.
+> 아래 내용은 이전 버전의 역사적 기록입니다. 최신 설치와 검증 범위는 위 beta.72 릴리즈를 기준으로 확인해 주세요.
 
 ---
 
